@@ -1,0 +1,67 @@
+\documentclass[article,A4,11pt]{llncs}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{bm}
+
+\leftmargin=0.2cm
+\oddsidemargin=1.2cm
+\evensidemargin=0cm
+\topmargin=0cm
+\textwidth=15.5cm
+\textheight=21.5cm
+\pagestyle{plain}
+\begin{document}
+
+\title{Building a Knowledge Graph for Scientific Computing}
+\author{}
+\tocauthor{René Fritze}
+\institute{}
+\maketitle
+
+\begin{center}
+{{\large \underline{René Fritze}}, {\large Christian Himpe}, {\large Hendrik Kleikamp}, {\large Stephan Rave}}\\
+University of Münster, Germany\\
+{\tt rene.fritze@wwu.de, christian.himpe@uni-muenster.de, hendrik.kleikamp@uni-muenster.de, stephan.rave@uni-muenster.de}
+\end{center}
+
+\section*{Abstract}
+
+The Mathematical Research Data Initiative (MaRDI [1]) is a consortium of 16 Co-Applicant
+research institutions. MaRDI is one of currently 19 consortia founded through Germany's National Research Data Infrastructure (NFDI [2]).
+The NFDI aims to create a permanent digital repository of knowledge as an indispensable prerequisite for new research questions, findings and innovations.
+
+In our contribution we will report on our efforts in MaRDI's Scientific Computing task area during
+the first 7 months of our 5 year project duration and our plans for the future.
+
+Central piece of the presentation will be how we are constructing a knowledge graph for numerical algorithms.
+We have created an ontology that
+semantically links mathematical problems with algorithms, publications and implementations.
+Publications are canonically identified by their DOI, software implementations by their
+swMATH [3] identifier.
+The ontology encodes possible relationships between the entities in the graph and these
+connections can be explored using our web-based query frontend.
+This query frontend enables non-experts to quickly gain an overview of available methods and
+software for numerical problems in their scientific work.
+The frontend makes variations of essentially the same algorithms easily discoverable.
+It allows tracking new publications or software implementations connected to a certain
+mathematical problem.
+
+We will be inviting feedback for our plans to grow this knowledge graph into a community-driven platform
+with an open, freely accessible API.
+
+\bibliographystyle{plain}
+\begin{thebibliography}{10}
+\bibitem{The Mathematical Research Data Initiative}
+{\sc The MaRDI4NFDI Consortium}. {The Mathematical Research Data Initiative}. https://www.mardi4nfdi.de/about/mission.
+
+\bibitem{The German National Research Data Infrastructure}
+{\sc Nationale Forschungsdateninfrastruktur (NFDI) e.V.}. {The German National Research Data Infrastructure}. https://www.nfdi.de/association/?lang=en.
+
+\bibitem{swMATH}
+{\sc FIZ Karlsruhe}. {swMATH}. https://swmath.org/.
+\end{thebibliography}
+
+\end{document}
