@@ -1,6 +1,6 @@
 ---
 title: Building a Knowledge Graph for Scientific Computing
-theme: white
+theme: black
 revealOptions:
   transition: 'slide'
   controls: true
@@ -10,12 +10,12 @@ revealOptions:
 # Building a Knowledge Graph for Scientific Computing
 
 <small>René Fritze</small>
+
 <small>rene.fritze@wwu.de</small>
+
 <small>Applied Mathematics Münster</small>
 
 <small>April 27, 2022</small>
-
-<small>**</small>
 
 ---
 
